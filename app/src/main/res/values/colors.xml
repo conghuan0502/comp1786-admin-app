@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary Brand Colors -->
+    <color name="color_primary">#6A4C93</color>            <!-- Deep Purple -->
+    <color name="color_primary_variant">#4A2C73</color>      <!-- Darker Purple -->
+    <color name="color_on_primary">#FFFFFF</color>           <!-- White text on primary -->
+
+    <!-- Secondary Brand Colors -->
+    <color name="color_secondary">#A8DADC</color>           <!-- Light Teal -->
+    <color name="color_secondary_variant">#457B9D</color>    <!-- Darker Teal -->
+    <color name="color_on_secondary">#000000</color>         <!-- Black text on secondary -->
+
+    <!-- Background Colors -->
+    <color name="background_color">#FAFAFA</color>          <!-- Light Gray Background -->
+    <color name="surface_color">#FFFFFF</color>             <!-- White Surface -->
+    <color name="color_on_background">#1D1B20</color>        <!-- Dark text on background -->
+    <color name="color_on_surface">#1D1B20</color>           <!-- Dark text on surface -->
+
+    <!-- Accent Colors -->
+    <color name="accent">#FF6B6B</color>                   <!-- Coral Red -->
+    <color name="accent_light">#FFE5E5</color>              <!-- Light Coral -->
+    <color name="accent_dark">#E55555</color>               <!-- Dark Coral -->
+
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>                  <!-- Green -->
+    <color name="successLight">#C8E6C9</color>             <!-- Light Green -->
+    <color name="successDark">#388E3C</color>              <!-- Dark Green -->
+
+    <color name="warning">#FF9800</color>                  <!-- Orange -->
+    <color name="warningLight">#FFE0B2</color>             <!-- Light Orange -->
+    <color name="warningDark">#F57C00</color>              <!-- Dark Orange -->
+
+    <color name="error">#F44336</color>                    <!-- Red -->
+    <color name="errorLight">#FFCDD2</color>               <!-- Light Red -->
+    <color name="errorDark">#D32F2F</color>                <!-- Dark Red -->
+
+    <color name="info">#2196F3</color>                     <!-- Blue -->
+    <color name="infoLight">#BBDEFB</color>                <!-- Light Blue -->
+    <color name="infoDark">#1976D2</color>                 <!-- Dark Blue -->
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>              <!-- Primary text -->
+    <color name="text_secondary">#757575</color>            <!-- Secondary text -->
+    <color name="text_tertiary">#9E9E9E</color>             <!-- Tertiary text -->
+    <color name="text_disabled">#BDBDBD</color>             <!-- Disabled text -->
+    <color name="text_hint">#9E9E9E</color>                 <!-- Hint text -->
+
+    <!-- Inverse Text Colors -->
+    <color name="text_primary_inverse">#FFFFFF</color>       <!-- White text -->
+    <color name="text_secondary_inverse">#E0E0E0</color>     <!-- Light gray text -->
+    <color name="text_tertiary_inverse">#BDBDBD</color>      <!-- Medium gray text -->
+
+    <!-- Material Design Standard Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Gray Palette -->
+    <color name="gray50">#FAFAFA</color>
+    <color name="gray100">#F5F5F5</color>
+    <color name="gray200">#EEEEEE</color>
+    <color name="gray300">#E0E0E0</color>
+    <color name="gray400">#BDBDBD</color>
+    <color name="gray500">#9E9E9E</color>
+    <color name="gray600">#757575</color>
+    <color name="gray700">#616161</color>
+    <color name="gray800">#424242</color>
+    <color name="gray900">#212121</color>
+
+    <!-- UI Element Colors -->
+    <color name="divider">#E0E0E0</color>                  <!-- Divider lines -->
+    <color name="border">#E0E0E0</color>                   <!-- Border color -->
+    <color name="shadow">#40000000</color>                 <!-- Shadow with 25% opacity -->
+    <color name="overlay">#80000000</color>                <!-- Overlay with 50% opacity -->
+    <color name="ripple">#20000000</color>                 <!-- Ripple effect -->
+
+    <!-- Card Colors -->
+    <color name="cardBackground">#FFFFFF</color>           <!-- Card background -->
+    <color name="cardElevated">#FFFFFF</color>             <!-- Elevated card background -->
+    <color name="cardStroke">#E0E0E0</color>               <!-- Card border -->
+
+    <!-- Button Colors -->
+    <color name="buttonPrimary">#6A4C93</color>            <!-- Primary button -->
+    <color name="buttonPrimaryPressed">#4A2C73</color>     <!-- Primary button pressed -->
+    <color name="buttonSecondary">#F5F5F5</color>          <!-- Secondary button -->
+    <color name="buttonSecondaryPressed">#EEEEEE</color>   <!-- Secondary button pressed -->
+    <color name="buttonDisabled">#E0E0E0</color>           <!-- Disabled button -->
+    <color name="buttonTextDisabled">#9E9E9E</color>       <!-- Disabled button text -->
+
+    <!-- Input Field Colors -->
+    <color name="inputBackground">#FAFAFA</color>          <!-- Input field background -->
+    <color name="inputBorder">#E0E0E0</color>              <!-- Input field border -->
+    <color name="inputBorderFocused">#6A4C93</color>       <!-- Focused input border -->
+    <color name="inputBorderError">#F44336</color>         <!-- Error input border -->
+    <color name="inputText">#212121</color>                <!-- Input text color -->
+    <color name="inputHint">#9E9E9E</color>                <!-- Input hint text -->
+
+    <!-- Yoga-specific Theme Colors -->
+    <color name="zen">#8E9AAF</color>                      <!-- Zen Blue Gray -->
+    <color name="calm">#CBC0D3</color>                     <!-- Calm Lavender -->
+    <color name="peace">#EFD3D7</color>                    <!-- Peaceful Pink -->
+    <color name="nature">#A8DADC</color>                   <!-- Natural Teal -->
+    <color name="earth">#F1FAEE</color>                    <!-- Earth Cream -->
+    <color name="energy">#E63946</color>                   <!-- Energy Red -->
+
+    <!-- Course Type Colors -->
+    <color name="hatha">#8BC34A</color>                    <!-- Light Green for Hatha -->
+    <color name="vinyasa">#FF9800</color>                  <!-- Orange for Vinyasa -->
+    <color name="ashtanga">#F44336</color>                 <!-- Red for Ashtanga -->
+    <color name="bikram">#FF5722</color>                   <!-- Deep Orange for Bikram -->
+    <color name="yin">#9C27B0</color>                      <!-- Purple for Yin -->
+    <color name="power">#E91E63</color>                    <!-- Pink for Power -->
+    <color name="restorative">#00BCD4</color>              <!-- Cyan for Restorative -->
+    <color name="kundalini">#FFC107</color>                <!-- Amber for Kundalini -->
+
+    <!-- Difficulty Level Colors -->
+    <color name="beginner">#4CAF50</color>                 <!-- Green for Beginner -->
+    <color name="intermediate">#FF9800</color>             <!-- Orange for Intermediate -->
+    <color name="advanced">#F44336</color>                 <!-- Red for Advanced -->
+    <color name="allLevels">#9C27B0</color>                <!-- Purple for All Levels -->
+
+    <!-- Status Colors Extended -->
+    <color name="scheduled">#2196F3</color>                <!-- Blue for Scheduled -->
+    <color name="ongoing">#FF9800</color>                  <!-- Orange for Ongoing -->
+    <color name="completed">#4CAF50</color>                <!-- Green for Completed -->
+    <color name="cancelled">#F44336</color>                <!-- Red for Cancelled -->
+
+    <!-- Capacity Status Colors -->
+    <color name="available">#4CAF50</color>                <!-- Green for Available -->
+    <color name="almostFull">#FF9800</color>               <!-- Orange for Almost Full -->
+    <color name="full">#F44336</color>                     <!-- Red for Full -->
+
+    <!-- Special UI Colors -->
+    <color name="fabBackground">#6A4C93</color>            <!-- FAB background -->
+    <color name="fabForeground">#FFFFFF</color>            <!-- FAB icon color -->
+    <color name="tabSelected">#6A4C93</color>              <!-- Selected tab -->
+    <color name="tabUnselected">#9E9E9E</color>            <!-- Unselected tab -->
+    <color name="progressBar">#6A4C93</color>              <!-- Progress bar color -->
+
+    <!-- Night Mode Colors (for future dark theme support) -->
+    <color name="backgroundNight">#121212</color>          <!-- Dark background -->
+    <color name="surfaceNight">#1E1E1E</color>             <!-- Dark surface -->
+    <color name="primaryNight">#8A6CBF</color>             <!-- Light purple for dark theme -->
+    <color name="secondaryNight">#B8E6E8</color>           <!-- Light teal for dark theme -->
+
+</resources>

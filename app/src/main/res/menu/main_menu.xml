@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_sync_firebase"
+        android:title="Sync to Firebase"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_reset_database"
+        android:title="Reset Database"
+        app:showAsAction="never" />
+</menu>

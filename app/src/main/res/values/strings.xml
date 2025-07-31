@@ -1,0 +1,286 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Yoga Admin</string>
+
+    <!-- General -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="clear">Clear</string>
+    <string name="select">Select</string>
+    <string name="loading">Loading...</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="warning">Warning</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="courses">Courses</string>
+    <string name="instances">Class Instances</string>
+    <string name="statistics">Statistics</string>
+    <string name="settings">Settings</string>
+    <string name="back">Back</string>
+
+    <!-- Main Activity -->
+    <string name="welcome_message">Welcome to Yoga Admin</string>
+    <string name="manage_your_studio">Manage your yoga studio efficiently</string>
+    <string name="view_courses">View Courses</string>
+    <string name="view_instances">View Instances</string>
+    <string name="add_course">Add Course</string>
+    <string name="add_instance">Add Instance</string>
+    <string name="manage_instances">Manage Instances</string>
+    <string name="quick_stats">Quick Stats</string>
+    <string name="manage_teachers">Manage Teachers</string>
+    <string name="reset_database">Reset Database</string>
+    <string name="sync_with_firebase">Sync with Firebase</string>
+
+    <!-- Course Management -->
+    <string name="course_name">Course Name</string>
+    <string name="course_description">Course Description</string>
+    <string name="course_duration">Duration (minutes)</string>
+    <string name="course_capacity">Capacity</string>
+    <string name="course_price">Price</string>
+    <string name="course_type">Course Type</string>
+    <string name="course_level">Difficulty Level</string>
+    <string name="course_instructor">Instructor</string>
+    <string name="add_new_course">Add New Course</string>
+    <string name="edit_course">Edit Course</string>
+    <string name="course_details">Course Details</string>
+    <string name="course_saved">Course saved successfully</string>
+    <string name="course_updated">Course updated successfully</string>
+    <string name="course_deleted">Course deleted successfully</string>
+    <string name="delete_course_confirm">Are you sure you want to delete this course?</string>
+    <string name="no_courses_found">No courses found</string>
+    <string name="total_courses">Total Courses</string>
+
+    <!-- Course Types -->
+    <string name="hatha_yoga">Hatha Yoga</string>
+    <string name="vinyasa_yoga">Vinyasa Yoga</string>
+    <string name="ashtanga_yoga">Ashtanga Yoga</string>
+    <string name="bikram_yoga">Bikram Yoga</string>
+    <string name="yin_yoga">Yin Yoga</string>
+    <string name="power_yoga">Power Yoga</string>
+    <string name="restorative_yoga">Restorative Yoga</string>
+    <string name="kundalini_yoga">Kundalini Yoga</string>
+
+    <!-- Difficulty Levels -->
+    <string name="beginner">Beginner</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="advanced">Advanced</string>
+    <string name="all_levels">All Levels</string>
+
+    <!-- Instance Management -->
+    <string name="class_instances">Class Instances</string>
+    <string name="instance_date">Date</string>
+    <string name="instance_time">Time</string>
+    <string name="instance_course">Course</string>
+    <string name="instance_instructor">Instructor</string>
+    <string name="instance_capacity">Capacity</string>
+    <string name="instance_enrolled">Enrolled</string>
+    <string name="instance_status">Status</string>
+    <string name="add_new_instance">Add New Instance</string>
+    <string name="edit_instance">Edit Instance</string>
+    <string name="instance_details">Instance Details</string>
+    <string name="instance_saved">Instance saved successfully</string>
+    <string name="instance_updated">Instance updated successfully</string>
+    <string name="instance_deleted">Instance deleted successfully</string>
+    <string name="delete_instance_confirm">Are you sure you want to delete this instance?</string>
+    <string name="no_instances_found">No class instances found</string>
+    <string name="add_first_instance">Add your first yoga class instance to get started</string>
+    <string name="search_instances">Search instances...</string>
+    <string name="total_instances">Total Instances</string>
+    <string name="active_instances">Active</string>
+    <string name="completed_instances">Completed</string>
+    <string name="cancelled_instances">Cancelled</string>
+
+    <!-- Instance Status -->
+    <string name="scheduled">Scheduled</string>
+    <string name="ongoing">Ongoing</string>
+    <string name="completed">Completed</string>
+    <string name="cancelled">Cancelled</string>
+
+    <!-- Date and Time -->
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="this_week">This Week</string>
+    <string name="next_week">Next Week</string>
+
+    <!-- Days of Week -->
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+    <string-array name="course_days">
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+        <item>@string/sunday</item>
+    </string-array>
+
+    <string-array name="course_times">
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+    </string-array>
+
+    <string-array name="course_types">
+        <item>Flow Yoga</item>
+        <item>Aerial Yoga</item>
+        <item>Family Yoga</item>
+    </string-array>
+
+    <!-- Validation Messages -->
+    <string name="field_required">This field is required</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="invalid_phone">Please enter a valid phone number</string>
+    <string name="invalid_price">Please enter a valid price</string>
+    <string name="invalid_capacity">Please enter a valid capacity</string>
+    <string name="invalid_duration">Please enter a valid duration</string>
+    <string name="course_name_required">Course name is required</string>
+    <string name="course_duration_required">Duration is required</string>
+    <string name="instance_date_required">Date is required</string>
+    <string name="instance_time_required">Time is required</string>
+    <string name="instance_course_required">Please select a course</string>
+    <string name="past_date_error">Cannot schedule for past date</string>
+    <string name="capacity_exceeded">Enrolled students exceed capacity</string>
+
+    <!-- Search and Filter -->
+    <string name="search_courses">Search courses...</string>
+    <string name="filter_by_type">Filter by Type</string>
+    <string name="filter_by_level">Filter by Level</string>
+    <string name="filter_by_instructor">Filter by Instructor</string>
+    <string name="filter_by_date">Filter by Date</string>
+    <string name="filter_by_status">Filter by Status</string>
+    <string name="clear_filters">Clear Filters</string>
+    <string name="apply_filters">Apply Filters</string>
+    <string name="no_results">No results found</string>
+    <string name="results_count">%1$d results found</string>
+
+    <!-- Statistics -->
+    <string name="statistics_title">Statistics</string>
+    <string name="courses_overview">Courses Overview</string>
+    <string name="instances_overview">Instances Overview</string>
+    <string name="popular_courses">Popular Courses</string>
+    <string name="upcoming_classes">Upcoming Classes</string>
+    <string name="monthly_summary">Monthly Summary</string>
+    <string name="weekly_summary">Weekly Summary</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="general_settings">General Settings</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="data_settings">Data Settings</string>
+    <string name="about">About</string>
+    <string name="app_version">App Version</string>
+    <string name="developer_info">Developer Information</string>
+
+    <!-- Notifications -->
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="class_reminders">Class Reminders</string>
+    <string name="booking_notifications">Booking Notifications</string>
+    <string name="system_notifications">System Notifications</string>
+
+    <!-- Data Management -->
+    <string name="backup_data">Backup Data</string>
+    <string name="restore_data">Restore Data</string>
+    <string name="export_data">Export Data</string>
+    <string name="import_data">Import Data</string>
+    <string name="clear_all_data">Clear All Data</string>
+    <string name="data_backup_success">Data backed up successfully</string>
+    <string name="data_restore_success">Data restored successfully</string>
+    <string name="data_export_success">Data exported successfully</string>
+    <string name="clear_data_confirm">Are you sure you want to clear all data? This action cannot be undone.</string>
+
+    <!-- Empty States -->
+    <string name="empty_courses_title">No courses yet</string>
+    <string name="empty_courses_message">Start by adding your first yoga course</string>
+    <string name="empty_instances_title">No class instances found</string>
+    <string name="empty_instances_message">Add your first yoga class instance to get started</string>
+    <string name="empty_search_title">No results found</string>
+    <string name="empty_search_message">Try adjusting your search or filters</string>
+
+    <!-- Actions -->
+    <string name="view_details">View Details</string>
+    <string name="quick_add">Quick Add</string>
+    <string name="duplicate">Duplicate</string>
+    <string name="share">Share</string>
+    <string name="print">Print</string>
+    <string name="export">Export</string>
+
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="add_course_button">Add new course</string>
+    <string name="add_instance_button">Add new instance</string>
+    <string name="search_button">Search</string>
+    <string name="filter_button">Filter</string>
+    <string name="menu_button">Menu</string>
+    <string name="back_button">Go back</string>
+    <string name="delete_button">Delete item</string>
+    <string name="edit_button">Edit item</string>
+    <string name="calendar_icon">Calendar</string>
+    <string name="clock_icon">Clock</string>
+    <string name="person_icon">Person</string>
+    <string name="yoga_pose_icon">Yoga pose</string>
+
+    <!-- Error Messages -->
+    <string name="network_error">Network connection error</string>
+    <string name="database_error">Database error occurred</string>
+    <string name="generic_error">Something went wrong. Please try again.</string>
+    <string name="save_error">Failed to save. Please try again.</string>
+    <string name="delete_error">Failed to delete. Please try again.</string>
+    <string name="load_error">Failed to load data. Please try again.</string>
+
+    <!-- Success Messages -->
+    <string name="save_success">Saved successfully</string>
+    <string name="update_success">Updated successfully</string>
+    <string name="delete_success">Deleted successfully</string>
+
+    <!-- Instructor Related -->
+    <string name="instructor_name">Instructor Name</string>
+    <string name="instructor_email">Instructor Email</string>
+    <string name="instructor_phone">Instructor Phone</string>
+    <string name="select_instructor">Select Instructor</string>
+    <string name="add_instructor">Add Instructor</string>
+    <string name="no_instructor_selected">No instructor selected</string>
+
+    <!-- Miscellaneous -->
+    <string name="currency_symbol">$</string>
+    <string name="minutes_short">min</string>
+    <string name="students">students</string>
+    <string name="available_spots">Available Spots</string>
+    <string name="full">Full</string>
+    <string name="spots_left">%1$d spots left</string>
+
+</resources>
