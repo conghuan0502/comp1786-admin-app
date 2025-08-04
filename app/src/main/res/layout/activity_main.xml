@@ -68,7 +68,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:contentDescription="@string/view_courses"
-                    android:src="@drawable/ic_yoga" />
+                    android:src="@drawable/ic_statistics" />
 
                 <TextView
                     android:layout_width="wrap_content"
