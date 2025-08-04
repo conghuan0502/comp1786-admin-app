@@ -238,18 +238,3 @@ android {
     }
 }
 ```
-
-### Permissions
-```xml
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-```
-
-## 🧪 Testing
-
-### Unit Tests
-- **ValidationUtilsTest**: Input validation testing
-- **ExampleUnitTest**: Basic unit test structure
-
-### Instrumented Tests
-- **ExampleInstrumentedTest**: UI testing framework
